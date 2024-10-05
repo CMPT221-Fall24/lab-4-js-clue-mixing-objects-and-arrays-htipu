@@ -1,0 +1,32 @@
+body{
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: lightgray;
+    font-size: 45px;
+    color: lightblue;
+    text-align: center;
+    margin-top: 175px;
+}
+
+#reveal{
+    border-radius: 10px;
+    border-color: white;
+    font-size: 35px;
+    margin-top: 50px;     
+    position: absolute;
+    background-color: green;
+    color: white;
+    top: 50%; /* Moves button to the middle vertically */
+    left: 50%; /* Moves button to the middle horizontally */
+    transform: translate(-50%, -50%); /* Centers the button */
+    padding: 10px 20px;
+    
+}
+
+#reveal:hover{
+    background-color: rgb(13, 87, 13);
+    color: whitesmoke;
+}
